@@ -33,13 +33,13 @@ sudo apt-get upgrade
 
 # INSTALL SOFTWARES
 echoAction "install openssh-client to use SCP"
-sudo apt-get install openssh-client
+sudo apt-get install openssh-client -y
 
 echoAction "install hostapd"
-sudo apt-get install hostapd
+sudo apt-get install hostapd -y
 
 echoAction "install dnsmasq"
-sudo apt-get install dnsmasq
+sudo apt-get install dnsmasq -y
 
 # Dnsmasq bug: in versions below 2.77 on Stretch and Jessie, 
 # there is a bug that may cause the hotspot not to start for some users. 
@@ -53,7 +53,7 @@ to_patch=$(expr $V \< 2.77)
 
 if [ $to_patch ]; then
     echoWarning "# patch DNSMASQ bug"
-    sudo apt-get purge dns-root-data
+    sudo apt-get purge dns-root-data -y
 fi
 
 # automatic startup needs to be disabled and by default hostapd is masked so needs to be unmasked

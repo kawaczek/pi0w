@@ -4,3 +4,27 @@ https://hackaday.io/project/25092/instructions
 tak do robota 
  https://github.com/CoretechR/ZeroBot
 Oby nie znikło
+
+Instalka na czysty raspbianie (czy jak to tam sie pisze)
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install apache2 npm -y
+curl https://www.npmjs.com/install.sh | sudo sh
+
+sudo npm install express socket.io pi-gpio pigpio
+#sudo npm install socket.io
+#sudo npm install pi-gpio
+#sudo npm install pigpio
+
+------------------------------------------------------------------------
+nowego nodejs ale to trwa!!!!! i trwa i trwa i trwa bleee
+-------------------------------------------------------------------------
+
+
+
+
+
+git clone https://github.com/CoretechR/ZeroBot Desktop/touchUI
+cd Desktop/touchUI
+
+

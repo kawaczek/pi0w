@@ -24,7 +24,7 @@ IFS=$IFSdef #reset back to defaults
 #Note:If you only want to check for certain SSIDs
 #Remove the # in in front of ssids=('mySSID1'.... below and put a # infront of all four lines above
 # separated by a space, eg ('mySSID1' 'mySSID2')
-#ssids=('mySSID1' 'mySSID2' 'mySSID3')
+ssids=('Ciasteczkowa 4' )
 
 #Enter the Routers Mac Addresses for hidden SSIDs, seperated by spaces ie 
 #( '11:22:33:44:55:66' 'aa:bb:cc:dd:ee:ff' ) 
@@ -36,7 +36,7 @@ createAdHocNetwork()
 {
     echo "Creating Hotspot"
     ip link set dev "$wifidev" down
-    ip a add 10.0.0.5/24 brd + dev "$wifidev"
+    ip a add 192.168.1.133/24 brd + dev "$wifidev"
     ip link set dev "$wifidev" up
     dhcpcd -k "$wifidev" >/dev/null 2>&1
     systemctl start dnsmasq

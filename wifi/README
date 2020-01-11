@@ -1,0 +1,12 @@
+Wifi - jeśli nie połączy się z waszą siecią to robi własną (Ciasteczkowa zeroW)
+w pliku autohotspot-script.sh
+ssids=('Ciasteczkowa 4' )
+Zmieńcie nazwe dla swojej sieci wifi :-) 
+
+i można instalować... 
+Po restarcie jeśli rpi nie znajdzie waszej sieci to zrobi hotspot 
+ssid=Ciasteczkowa ZeroW
+wpa_passphrase=kawak123
+
+po podłączeniu Wasze Rpi będzie miało adres 192.168.1.133
+No i dalej można się bawić :-)

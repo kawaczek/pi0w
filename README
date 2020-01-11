@@ -1,2 +1,19 @@
 Zestaw skryptów dla raspberry pi  i raspberry pi 0 W
 Taki ot moj zestwik :-)
+
+Folder WIFI
+Zawiera skrypt który
+Jeśli nie znajdzie waszej domowej sieci to tworzy swoją (readme w środku)
+
++ przykładowy wpa_supplicant.conf
+------------------------------------------------------------------------
+Folder System
+posiada data.sh
+Prosty skrypt który aktualizuje date systemować z googli ...
+Bez różnych dziwnych serwerów :-)
+------------------------------------------------------------------------
+Folder smars_zero
+Moja wariacja na temat czołgu na razberry pi :-) w trakcie robienia
+------------------------------------------------------------------------
+
+Jak wszystko na gicie 

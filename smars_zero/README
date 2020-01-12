@@ -19,7 +19,7 @@ curl https://www.npmjs.com/install.sh | sudo sh
 git clone https://github.com/kawaczek/ZeroBot Desktop/touchUI
 cd Desktop/touchUI
 sudo npm install 
-
+sudo node app.js
 heh oby zadziałało
 
 

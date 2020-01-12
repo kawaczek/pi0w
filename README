@@ -1,6 +1,36 @@
 Zestaw skryptów dla raspberry pi  i raspberry pi 0 W
 Taki ot moj zestwik :-)
 
+Wszystko będzie robione na Raspbian'ie (jedyny właścimy system dla raspberry pi)
+Manual będzie robiony na Raspbian Buster Lite którego można ściągnąć z officjalnej strony
+https://www.raspberrypi.org/downloads/raspbian/
+czyli https://downloads.raspberrypi.org/raspbian_lite_latest
+Soft do wgrania obrazu na karte to balenaEtcher
+https://www.balena.io/etcher/
+download gdzies tam na stronie.
+
+Instrukcji wgrywania obrazu na karte w necie jest multum więc nie będę się powielał... 
+Jak ktoś nie da to wygooglujcie sobie jak to działa... 
+
+Soft do łączenia się z malinką to putty 
+https://www.putty.org
+https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe
+(tyle osób z tego kożysta ... aż szok że nie posiada wirusów)
+
+1. ściągamy obraz raspbiana
+2. wgrywamy
+3. łączymy się do maliny za pomocą putty 
+4. komenda
+sudo date -s "$(curl -s --head http://google.com | grep ^Date: | sed 's/Date: //g')"
+zaktualizuje nam date :-)
+5. sudo apt update
+6. sudo apt upgrade
+7. sudo apt install git.
+
+
+
+
+
 Folder WIFI
 Zawiera skrypt który
 Jeśli nie znajdzie waszej domowej sieci to tworzy swoją (readme w środku)

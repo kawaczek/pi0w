@@ -29,7 +29,7 @@ function echoWarning() {
 
 echoAction "update the system"
 sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get upgrade -y
 
 # INSTALL SOFTWARES
 echoAction "install openssh-client to use SCP"

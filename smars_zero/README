@@ -13,7 +13,7 @@ Oby nie znikło
 Instalka na czysty raspbianie (czy jak to tam sie pisze)
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install apache2 npm pigpio -y
+sudo apt-get install apache2 npm pigpio screen mc -y
 curl https://www.npmjs.com/install.sh | sudo sh
 git clone https://github.com/kawaczek/ZeroBot Desktop/touchUI
 cd Desktop/touchUI

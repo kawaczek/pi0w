@@ -19,6 +19,8 @@ git clone https://github.com/kawaczek/ZeroBot Desktop/touchUI
 cd Desktop/touchUI
 sudo npm install 
 cd mjpg-streamer/mjpg-streamer-experimental
+sudo apt-get install build-essential imagemagick libv4l-dev libjpeg-dev cmake -y
+
 make clean all
 sudo mkdir /opt/mjpg-streamer
 sudo mv * /opt/mjpg-streamer

@@ -1,6 +1,8 @@
 Zestaw skryptów dla raspberry pi  i raspberry pi 0 W
 Taki ot moj zestwik :-)
 
+curl https://raw.githubusercontent.com/kawaczek/pi0w/master/system/first.sh  | sudo bash
+
 Wszystko będzie robione na Raspbian'ie (jedyny właścimy system dla raspberry pi)
 Manual będzie robiony na Raspbian Buster Lite którego można ściągnąć z officjalnej strony
 https://www.raspberrypi.org/downloads/raspbian/

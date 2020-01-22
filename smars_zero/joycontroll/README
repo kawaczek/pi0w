@@ -1,0 +1,9 @@
+base on https://github.com/TobiasWeis/robotcontrol-javascript
+
+
+quick install
+
+git clone https://github.com/kawaczek/pi0w/ ~/pi0w
+cd cd pi0w/smars_zero/joycontroll/
+sudo apt-get install python-numpy
+sudo pip install -r requirements.txt 

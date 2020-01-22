@@ -1,3 +1,6 @@
-[submodule "smars_zero/ZeroBot"]
-	path = smars_zero/ZeroBot
+[submodule "smars_zero/Joistick"]
+	path = smars_zero/Joistick
+	url = https://github.com/TobiasWeis/robotcontrol-javascript
+[submodule "smars_zero/roBot"]
+	path = smars_zero/roBot
 	url = https://github.com/kawaczek/ZeroBot

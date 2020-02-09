@@ -4,9 +4,9 @@ https://dev.to/rohansawant/installing-docker-and-docker-compose-on-the-raspberry
 curl -sSL https://get.docker.com | sh
 sudo usermod -aG docker pi
 sudo reboot -h now
-sudo apt-get install libffi-dev libssl-dev
-sudo apt-get install -y python python-pip
+sudo apt-get install libffi-dev libssl-dev python python-pip -y
 sudo apt-get remove python-configparser
+cp -r /usr/local/lib/python2.7/dist-packages/backports/ssl_match_hostname/ /usr/lib/python2.7/dist-packages/backports
 sudo pip install docker-compose
 
 no i to tyle :-) 
